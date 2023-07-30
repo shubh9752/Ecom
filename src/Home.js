@@ -1,13 +1,19 @@
 import React from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 import HeroSection from "./components/HeroSection";
+import Trusted from "./components/Trusted";
+import Services from "./components/Services";
 
 const Home = () => {
   const data = {
     name: "Skv store",
   };
 
-  return <HeroSection myData={data} />;
+  return (    <>
+  <HeroSection myData={data} />
+  <Services />
+  <Trusted />
+</>);
 };
 
 // const Wrapper = styled.section`
