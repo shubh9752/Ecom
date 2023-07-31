@@ -6,7 +6,7 @@ import Services from "./components/Services";
 
 const Home = () => {
   const data = {
-    name: "Skv store",
+    name: "jai store",
   };
 
   return (    <>

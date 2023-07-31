@@ -53,6 +53,13 @@ text-align: center;
               required
               autoComplete="off"
             />
+            <input
+              type="number"
+              placeholder="Mobile no."
+              name="phone"
+              required
+              autoComplete="off"
+            />
 
             <input
               type="email"
